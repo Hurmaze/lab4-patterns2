@@ -21,7 +21,6 @@ namespace Lab4_StructuralPatterns
             chrysanthemums = new FernDecorator(chrysanthemums);
             chrysanthemums = new PostcardDecorator(chrysanthemums, "Some postcard message!");
             Console.WriteLine($"Bouquet of: {chrysanthemums.GetBouquetComposition()}, Price: {chrysanthemums.CalculatePrice()}");
-
         }
     }
 }

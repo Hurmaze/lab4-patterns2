@@ -2,9 +2,6 @@
 using System;
 namespace lab4_patterns2.Decorators
 {
-    /// <summary>
-	/// Concrete decorator. Adds a Postcard message to existing bouquet
-	/// </summary>
     public class PostcardDecorator : Decorator
     {
         private string message;
